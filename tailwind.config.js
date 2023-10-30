@@ -8,18 +8,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#14b8a6',
-        secondary: '#64748b',
-        dark: '#002366',
-        gold: '#D0A84B',
-        whiteblue: '#CBD5E1',
-        darkestgreen: '#1C4144',
+        greenlight: '#40A93E',
       },
       screens: {
-        '2xl': '1320px',
+        '2xl': '1320px',  
       },
       fontFamily: {
-        'Inter' : ['Inter', 'san-serif'],
+        'Poppins': ['Poppins', 'san-serif'],
       },
     },
   },

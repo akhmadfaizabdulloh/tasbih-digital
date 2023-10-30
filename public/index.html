@@ -7,13 +7,14 @@
   <title>Tasbih Digital</title>
 </head>
 <body>
-    <main class="h-screen bg-center"  style="background-image: url('img/background.png')">
+    <main class=" bg-center bg-repeat-y"  style="background-image: url('img/background.png')">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center text-center px-4">
                     <div class="relative">
                         <img src="img/screen.png" alt="Screen" class="mx-auto mt-32 bg-local">
-                        <div class="box-content absolute text-5xl text-[#40A93E] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">99999999</div>
+                        <div id="result" class="box-content absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-greenlight text-right text-5xl font-bold">0</div>
+                        <!-- 99999999 -->
                     </div>
                     <div>
                         <button class="items-center mx-auto">
@@ -24,13 +25,14 @@
                         </button>
                     </div>
                     
-                    <button class="bg-[#1D1780CC] rounded-full mx-auto mt-32 py-11 px-20 text-white font-bold">Count</button>
-                    <p class="mx-auto mt-5 ">@fafaiez.100</p>
+                    <button id="add" class="bg-[#1D1780CC] rounded-full mx-auto mt-32 py-11 px-20 text-white font-bold text-lg">Count</button>
+                    <p class="mx-auto mt-8 mb-8 text-white font-semibold text-lg">@fafaiez.100</p>
 
                 </div>
             </div>
         </div>
 
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
